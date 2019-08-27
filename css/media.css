@@ -1,0 +1,45 @@
+
+@media all and (max-width:720px){
+    .UI .text h1{
+        padding:0
+    }
+    .UI .text p{
+        padding:0
+    }
+    .slider .navbar-dark{
+        background-color:#222
+    }
+    .slider .carousel-inner .carousel-item .text {
+        padding:0 20px;
+    }
+    .slider .carousel-inner .carousel-item .text div{
+        width:420px;
+    }
+    .slider .carousel-inner .carousel-item .texp{
+        width:100%;
+    }
+}
+/* style for larger tablets and labtops and small desktop*/
+
+@media (min-width:769px) and (max-width:1279px) {
+    .about .about1 P{
+    padding:0px 8px 10px 20px;
+    line-height: 22px;
+    color:#888
+    }
+    .about .about1 button{
+        margin-top:10px;
+        margin-left: 70px;
+    }
+}
+/*style for larger desktop and monitors*/
+
+@media (min-width:1280px) {
+    
+}
+@media print{
+    h1{
+        color:red
+    }
+}
+
